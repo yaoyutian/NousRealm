@@ -12,7 +12,7 @@
 **Status:** Research in progress. Nothing has been built yet. This repository states the question, the method, and the criteria for failure before any result exists.
 **状态：** 研究进行中，尚未构建任何系统。本仓库在结果产生之前，先陈述问题、方法，以及什么情况算失败。
 
-**Read next:** [判据草案](docs/criteria.md) · [Phase 1 任务设计](docs/phase1.md)
+**Read next:** [判据草案](docs/criteria.md) · [Phase 1 任务设计](docs/phase1.md) · [族 A 实现](field/familyA/)
 
 ---
 
@@ -138,6 +138,7 @@ docs/        判据、方法与每一轮运行的完整记录
   phase1.md      Phase 1 任务设计 —— 场的配置、任务族、对照臂
   prereg.md      预注册（Phase 1 开跑前提交，尚未撰写）
 field/       the Longchang environment: retrieval-off harnesses, task suites
+  familyA/       族 A「格竹」—— 陷阱任务：生成器 + 表达式沙箱 + 离线评分
 probe/       measurement — instruments for separating (a) / (b) / (c)
 rounds/      raw outputs and analyses, one directory per experiment
 ```
