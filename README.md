@@ -12,6 +12,8 @@
 **Status:** Research in progress. Nothing has been built yet. This repository states the question, the method, and the criteria for failure before any result exists.
 **状态：** 研究进行中，尚未构建任何系统。本仓库在结果产生之前，先陈述问题、方法，以及什么情况算失败。
 
+**Read next:** [判据草案](docs/criteria.md) · [Phase 1 任务设计](docs/phase1.md)
+
 ---
 
 ## 1. The Question · 研究问题
@@ -61,6 +63,8 @@ Rows 1–4 are the *environment*. Row 5 is the *constraint on the result*, and i
 Three necessary conditions. Miss any one, and the candidate is something else wearing the same clothes.
 
 三条必要条件，缺一不可。缺任何一条，它就只是穿着同一身衣服的别的东西。
+
+→ 可执行的测量、阈值与判定流水线见 **[`docs/criteria.md`](docs/criteria.md)**。
 
 **1. Endogeneity · 内生性**
 Remove retrieval, tools, and reference answers from the input. The conclusion must survive on its own. If it collapses the moment the outside is removed, it was never more than a lookup.
@@ -122,12 +126,17 @@ This project is not obliged to produce a positive result. These are the conditio
 Phase 3 is the project. Phases 0–2 are setup.
 Phase 3 才是项目本身，0–2 只是布景。
 
+→ 场的配置、任务族、对照臂与预注册的阴性风险，见 **[`docs/phase1.md`](docs/phase1.md)**。
+
 ---
 
 ## 7. Planned Layout · 计划目录
 
 ```
-docs/        question, method, and the full record of each run
+docs/        判据、方法与每一轮运行的完整记录
+  criteria.md    判据草案 —— 可执行的测量、阈值与判定流水线
+  phase1.md      Phase 1 任务设计 —— 场的配置、任务族、对照臂
+  prereg.md      预注册（Phase 1 开跑前提交，尚未撰写）
 field/       the Longchang environment: retrieval-off harnesses, task suites
 probe/       measurement — instruments for separating (a) / (b) / (c)
 rounds/      raw outputs and analyses, one directory per experiment
